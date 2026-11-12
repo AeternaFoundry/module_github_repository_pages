@@ -30,7 +30,7 @@ EOT
         v.build_type == null || (contains(["legacy", "workflow"], v.build_type))
       )
     ])
-    error_message = "must be one of: legacy, workflow"
+    error_message = "must be one of: \"legacy\", \"workflow\""
   }
 }
 
